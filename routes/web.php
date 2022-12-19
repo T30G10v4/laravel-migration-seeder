@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\Guest\Train;
+use App\Http\Controllers\Guest\TrainController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [Train::class, 'index']);
+Route::get('/', [TrainController::class, 'index']);
