@@ -4,6 +4,6 @@
 
 @section('content')
     @foreach ($trains as $train)
-        <h1>{{ $train->codice - treno }}</h1>
+        <h1>{{ $train->codice_treno }}</h1>
     @endforeach
 @endsection
