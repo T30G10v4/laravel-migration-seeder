@@ -3,9 +3,10 @@
 namespace App\Http\Controllers\Guest;
 
 use App\Http\Controllers\Controller;
+use App\Models\Train;
 use Illuminate\Http\Request;
 
-class Train extends Controller
+class TrainController extends Controller
 {
     //
     public function index() {
